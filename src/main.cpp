@@ -37,10 +37,10 @@ public:
 
   void getTime()
   {   
-    setLocalTime();
+    MandarHoraLocal();
   }
 
-  void setLocalTime()
+  void MandarHoraLocal()
   {
     
     if (!getLocalTime(&timeinfo))
